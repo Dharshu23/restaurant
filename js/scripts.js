@@ -16,13 +16,16 @@ $(document).ready(function() {
 
         //script for Login Modal 
 
-                $('#loginButton').click(function()
-                {
-                    $('#loginModal').modal('show');
+        $(document).ready(function(){
+            $("#loginButton").click(function(){
+                $("#loginModal").modal();
                 });
+            });
 
         //script for Reserve Table
+            $(document).ready(function(){
                 $('#reserve-table').click(function()
                 {
                     $('#ReservetableModal').modal('show');
                 });
+            });
